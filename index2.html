@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	<style>
+	#Parrafo p:first-child {
+		color:red;
+	}
+	
+	body p:last-child {
+		color:blue;
+	}
+	
+	#wall {
+	color:white;
+	width:100%;
+	height:1800px;
+	border-style:solid;
+	border-width:1px;
+	margin:10px 10px 10px 10px;
+	
+	/*-webkit-filter:brightness(100%);
+	background-repeat:no-repeat;
+	
+	background-size:contain;
+	
+	background-size: cover; 
+	*/
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	}
+	body{
+	
+    background: -webkit-linear-gradient(135deg, red, yellow); /* For Safari 5.1 to 6.0 */
+
+	}
+	
+	.mainBackground{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+		border-style:solid;
+		border-width:1px;
+		border-color:red;
+		
+		width:inherit;
+		height:inherit;
+		
+		
+		background-image:url('https://www.mechanicshub.com/wp-content/uploads/diesel-engine-mechanicst-mechanics-technicians-jobs-hiring-1920x1200.jpg');
+		/*background-attachment: fixed;*/
+		background-position: center;
+		
+		/*position: absolute;*/
+		/*position:fixed;*/
+		z-index:-1;
+		-webkit-filter:brightness(10%);
+	
+	}
+	
+		
+	#DescripcionDelProducto {
+	height:200px;
+	border-style:solid;
+	border-width:1px;
+	margin:10px 10px 10px 10px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	}
+	
+	#SlideShowImg {
+	float:right;
+	height:180px;
+	width:180px;
+	border-style:solid;
+	border-width:1px;
+	margin:10px 10px 10px 10px;
+	overflow:hidden;
+	}
+	
+	#Parrafo {
+	float:left;
+	height:180px;
+	border-style:solid;
+	border-width:1px;
+	margin:10px 10px 10px 10px;
+	overflow:hidden;
+	}
+	
+	#SlideShowImg img{
+		width:inherit;
+		display:normal;
+		-webkit-filter:blur(5px) contrast(100%) brightness(50%);
+
+	}
+	
+	</style>
+	
+	<title></title>
+	</head>
+	<body>
+	<p>Hola</p>
+	<p>Hola</p>
+	<p>Hola</p>
+	<div id="wall">
+		<div class="mainBackground">
+			<p>mainBackground</p>
+			<p>mainBackground</p>
+		</div>
+		<p>Hola</p>
+		<p>Hola</p>
+		<p>Hola</p>
+		<div id="DescripcionDelProducto">
+			<div id="Parrafo">
+				<p>Hola</p>
+				<p>aqui pondre la descripcion del  producto </p>
+				<p>Hola</p>
+			</div>
+			<div id="SlideShowImg">
+				<img src="https://4.bp.blogspot.com/-Nyfdpymc_Lo/VkQw-nJ79mI/AAAAAAAARYg/6o9VeoTvu-I/s1600-r/logo_chrome.png"/>
+				<p>Hola</p>
+				<p>Hola</p>
+				<p>Hola</p>
+			</div>
+		</div>
+
+
+	</div><!--wall-->
+	</body>
+</html>

@@ -1,0 +1,10 @@
+Etiquetas CSS NO soportadas por Mercadolibre
+
+Background-position
+	-absolute
+	-Fixed
+
+Transformaciones CSS3 (Bloqueadas)
+Hover BLOQUEADO
+
+-Ancho de plantilla maximo 918px
